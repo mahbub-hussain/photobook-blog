@@ -1,0 +1,52 @@
+
+.dg-container{
+	top: 48px;
+    width: 960px;
+    height: 300px;
+    position: relative;
+    margin: 0 auto;
+}
+.dg-wrapper{
+	width: 700px;
+	height: 254px;
+	margin: 0 auto;
+	position: relative;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-perspective: 1000px;
+	-moz-perspective: 1000px;
+	-o-perspective: 1000px;
+	-ms-perspective: 1000px;
+	perspective: 1000px;
+}
+.dg-wrapper a{
+	width: 700px;
+	height: 254px;
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+
+	box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+}
+.dg-wrapper a.dg-transition{
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.dg-wrapper a img{
+	max-width:100%;
+	display: block;
+	width:700px;
+	height:254px;
+	
+}
+
+.dg-wrapper a.dg-center div{
+	display: block;
+}
