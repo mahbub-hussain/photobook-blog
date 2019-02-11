@@ -1,0 +1,266 @@
+
+
+
+
+
+/*		Tablet Layout: 768px.   */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+	body {
+
+	}
+	
+	#header{
+		background-color:red;
+	}
+	.mobile_number {
+    }
+	.btn{
+	padding: 1px 3% 1px 3%;
+    margin-top: 8px;
+	}
+	.slider_text > h1 {
+	font-size: 43px;
+    }
+	.single_sevice img {
+	width: 60%;
+	}
+	.testbtn {
+	width: 42%;
+	}
+	.solution_nav > li > a {
+	font-size: 17px;
+	}
+	.solution_content > h3 {
+	font-size: 19px;
+	}
+	.price_tag {
+	font-size: 50px;
+	}
+	.solution_content > h2 {
+	font-size: 32px;
+	}
+	.icon_menu::before, .footer_menu::before {
+	content: "_____________";
+	}
+	.johntitle {
+	margin-left: 48%;
+	}
+	.designlogo {
+	margin-right: 7%;
+	}
+	.logo {
+	margin-left: 0%;
+	}
+}
+
+
+
+/*		Mobile Layout: 320px.  */
+
+@media only screen and (max-width: 767px) {
+	
+	body {
+	}
+	.navbar-brand img {
+	width: 72%;
+	}
+	.mobile_number {
+	}
+	.number {
+	font-size: 10px;
+	}
+	.fa.fa-sign-in {
+	font-size: 22px;
+		
+	}
+    .mobile_number, .logo, .sign_in {
+	margin-top: 18px;
+    margin-left: auto;
+    margin-right: 7%
+}
+    .slider_text > h1 {
+	font-size: 28px;
+}
+    .btn {
+	padding: 5px;
+	margin-top: 10px;
+}
+    .single_sevice::after {
+	display:none;
+	}
+
+	.single_sevice {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	.single_sevice img {
+		width: 85%;
+	}	
+	.single_sevice h2 {
+	font-size: 18px;
+	}
+	.advantage_area img {
+		width: 60%;
+	}
+	.advantage_area > h1 {
+	font-size: 40px;
+	}
+	.advantage_content > p {
+	font-size: 15px;
+	}
+	.advantage_content > h2 {
+		font-size: 20px;
+
+	}
+	.advantagebtn {
+		margin-bottom: 36px;
+		margin-top: 18px;
+		padding: 4px 3% 4px 3%;
+	}
+	.btn {
+		font-size: 18px;
+	}
+	.solution_area > h1 {
+	font-size: 40px;
+	}
+	.solution_content {
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom: 44px;
+	}
+	.price_tag {
+	font-size: 40px;
+	}
+
+	.solution_content > h2 {
+		font-size: 18px;
+	}
+	.solution_nav > li > a {
+	font-size: 16px;
+	}
+	.solution_content > h3 {
+		font-size: 18px;
+	}
+	.Testimonials_text > h1 {
+	font-size: 40px;
+	padding: 8px 0%;
+	margin-left: -22px;
+}
+.Testimonials_text {
+	width: 47%;
+	margin-left:12%;
+}
+.Testimonials_text > h1 {
+	font-size: 40px;
+	padding: 8px 0%;
+	margin-left: -14px;
+}
+.Testimonials_text img {
+	width: 56%;
+	margin-left: -13%;
+}
+.Testimonials_text h2 {
+	font-size: 16px;
+	margin-left: 50%;
+	margin-top: -61px;
+	float: left;
+}
+
+.johntitle {
+	font-size: 12px;
+	margin-top: -3.7em;
+	margin-left: 50%;
+	display: block;
+}
+
+.Testimonials_text p {
+	font-size: 13px;
+}
+.testimonialbtn {
+	margin-left: 0%;
+}
+.nextbtn {
+	float: none;
+	font-size: 15px;
+}
+
+.designlogo {
+	margin-left: 26%;
+	float: left;
+}
+.icon_menu {
+	width: 76%;
+	margin: 0 auto;
+}
+.footer_menu {
+	width: 51%;
+	margin: 0 auto;
+}
+.single_content {
+	margin: 22px 0% 22px 0%;
+}
+
+.testbtn {
+	width: 78%;
+}
+
+}
+/*		Wide Mobile Layout: 480px.   */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	body {
+	}
+	
+	#header{
+		background-color:blue;
+		}
+	.fa.fa-sign-in {
+	font-size: 25px;
+}
+
+		
+}
+
+@media only screen and (max-width: 520px) {
+    
+    body{
+        
+    }
+    .mobile_number{
+        display: none;
+    }
+    .slider_text{
+    }
+    .slider_text > h1 {
+	font-size: 15px;
+	margin-top: 10px;
+}
+    .btn {
+	font-size: 12px;
+	padding: 1px 11px;
+}
+    .slider_text p {
+	font-size: 15px;
+	margin-top: -12px;
+	margin-bottom: 0;
+}
+    
+}
+
+@media only screen and (max-width:350px){
+    body{
+        
+    }
+    .sign_in {
+	margin-left: auto;
+	margin-right:2%;
+}
+}
+
+ 
+
+
+
